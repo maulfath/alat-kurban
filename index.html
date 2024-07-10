@@ -13,9 +13,72 @@
     <link rel="icon" href="image-18.webp" type="image/x-icon" />
 
     <title>ALAT QURBAN INVENTARIS JAMILAH</title>
+    <style>
+        /* Custom CSS for enhanced styling */
+        body {
+            background-color: #f8f9fa; /* Light gray background */
+            padding-top: 60px; /* For navbar adjustments */
+        }
+
+        .album {
+            background-color: #ffffff; /* White background for the album */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft box-shadow */
+            padding: 60px 0; /* Padding top and bottom */
+        }
+
+        .card {
+            transition: transform 0.2s; /* Smooth card hover effect */
+        }
+
+        .card:hover {
+            transform: translateY(-5px); /* Lift card on hover */
+        }
+
+        .card-title {
+            font-size: 1.2rem; /* Larger card title */
+            font-weight: bold; /* Bold font weight */
+        }
+
+        .card-body {
+            border-top: 2px solid #007bff; /* Blue border top */
+        }
+
+        .contact-form {
+            background-color: #f0f0f0; /* Light gray background for contact form */
+            padding: 40px; /* Padding for contact form */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft box-shadow */
+            margin-top: 40px; /* Top margin for separation */
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Qurban Inventory</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <main id="main" role="main">
         <div class="album py-5 bg-light">
             <div class="container">
@@ -176,6 +239,15 @@
                 </div>
             </div>
         </div>
+         <!-- Contact Section -->
+         <section id="contact" class="contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-secondary">suyatno.mame@yahoo.com</p>
+                    </div>
+                </div>
+                <div class="row
     </main>
 
     <!-- Optional JavaScript -->
